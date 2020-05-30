@@ -36,8 +36,10 @@ return (
                             <div class="cardelemento">
 
                                         <div>
+
                                         <img src={relatoriosImg} class=" imgInfo" alt="..."/>  
                                         <a href="#" class="infocomponente"><strong>Relatorios</strong></a>
+                                        
                                         </div>        
 
                             </div>
