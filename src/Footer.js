@@ -8,8 +8,8 @@ export default function Footer(){
 
     return (
         <footer class="footertamanho">
-            <div class="textfooter">
-                <strong>Ideia 2001 Copyright 2019- Todos os direitos reservados</strong>
+            <div class="elementofooter">
+               <p class="textfooter"> <strong class="marca">Ideia 2001</strong> &copy;Copyright 2019- Todos os direitos reservados</p>
             </div>
         </footer>
     );

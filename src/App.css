@@ -379,6 +379,8 @@ s
   
 }
 
+
+/*inicioo footer*/
 .footertamanho{
 
   width: 100%;
@@ -390,10 +392,28 @@ s
 
 .textfooter{
 
+  
+  color: rgb(102, 102, 102);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: roboto;
   
 
 }
+
+
+.elementofooter{
+ width: auto;
+ margin: 0 auto;
+ top: 30px;
+ position: relative;
+}
+.marca{
+  color: orange;
+  font-family: sans-serif;
+  margin-right: 3px;
+}
+
+/*final footer*/

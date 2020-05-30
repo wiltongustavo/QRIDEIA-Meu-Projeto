@@ -19,9 +19,9 @@ return (
                             <div class="cardelemento">
                         
                     
-                                        <div>
+                                        <div> 
                                           <img src={eventosImg} class="imgInfo" alt="..."/>
-                                          <a href="#" class="infocomponente">Meus Eventos</a>
+                                          <a href="#" class="infocomponente"><strong>Meus Eventos</strong></a>
                                         </div>
 
                             </div>
@@ -29,7 +29,7 @@ return (
 
                                         <div>
                                         <img src={usuariosImg} class="imgInfo" alt="..."/>
-                                        <a href="#" class="infocomponente">Usuários</a>
+                                        <a href="#" class="infocomponente"><strong>Usuários</strong></a>
                                         </div>
 
                                     </div>
@@ -37,7 +37,7 @@ return (
 
                                         <div>
                                         <img src={relatoriosImg} class=" imgInfo" alt="..."/>  
-                                        <a href="#" class="infocomponente">Relatorios</a>
+                                        <a href="#" class="infocomponente"><strong>Relatorios</strong></a>
                                         </div>        
 
                             </div>
