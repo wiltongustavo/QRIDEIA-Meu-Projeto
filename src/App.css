@@ -1,6 +1,8 @@
+/*
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -13,7 +15,7 @@
   }
 }
 
-.App-header {
+.App-nav {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +37,363 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+
+
+/* inicioo do logo canto esquerdo superior */
+.logoprojeto{
+  
+  font-size: 40px;
+  color: orange;
+  font-family: roboto;
+  margin-top: -8px;
+  
+}
+.IDEIA{
+  color: black;
+  font-family: roboto;
+ 
+}
+
+/*fim do logo canto esquerdo superior */
+
+
+/* inicio controlador da barra da home page*/
+
+.navprincipal{
+
+  padding-top: 50px;
+
+}
+
+/* fim controlador da barra da home page*/
+
+
+
+
+
+/* inicio  dos botoes da homepage*/
+
+.linkdesconect{
+
+  color: orange;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+.linkdesconect:visited,.linkdesconect:active {
+
+  color: orange;
+  text-decoration: none;
+  font-size: 15px;
+  
+
+}
+.linkdesconect:hover{
+
+  text-decoration: none;
+  color:rgb(146, 101, 17);
+  border:none;
+  font-size: 15px;
+ 
+}
+
+
+/* fim dos botoes da homepage */
+
+
+/*inicio das info do usuario */
+.usuarios{
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  
+  
+  
+
+
+}
+
+.usuarios:active,.usuarios:visited{
+
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+
+}
+
+.usuarios:hover{
+  
+ 
+  font-size: 25;
+  font-family:Roboto;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  font-style: bold;
+}
+
+
+.btnhome{
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+
+
+}
+
+.btnhome:active,.btnhome:visited{
+
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+
+}
+
+.btnhome:hover{
+  
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  font-style: bold;
+}
+
+/* fim das informacoes do usuario*/
+
+/* inicio da nav */
+#navprincipal{
+
+  background-color: rgb(240, 240, 240);
+}
+.estilo{
+  background-color: orange;
+  width: 100%;
+  height: 150px;
+}
+
+/*fim da nave*/
+
+/* iniciooooo do header*/
+
+.navbarcor{
+  display: inline;
+  background:orange;
+ 
+
+  
+
+}
+
+
+.headerprincipal{
+
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  
+}
+
+.header1{
+  width: 100%;
+  max-width: 1120px;
+  height: 90vh;
+  margin: 0 auto;
+  top: -90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+
+}
+
+
+/* inicio do article principal */
+s
+#articleprincipal{
+
+  background-color: white;
+         
+  
+
+  
+}
+
+
+
+.homepageseletor{
+
+  width: 80%;
+  height: 80%;
+  
+}
+.componente{
+
+  
+  margin:30px;
+}
+
+
+.titulo{
+  margin-top:8%;
+  margin-bottom: 8%;
+
+}
+
+/* inicio de componentes de selecao da tela*/
+
+.infocomponente{
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+
+}
+
+.infocomponente:active,.infocomponente:visited{
+
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+
+}
+
+.infocomponente:hover{
+  
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  font-style: bold;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+
+}
+
+/* fim de componentes de selecao da tela*/
+
+
+
+.names{
+  bottom: 40px;
+  right: 10px;
+}
+
+.imgInfo{
+
+ 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.cardelemento{
+
+  margin: 0 auto;
+  width: 270px;
+  height: 250px;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(224, 224, 224));
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.blococentral{
+  
+  width: auto;
+  height: 600px;
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.textitem{
+ 
+  
+  position: absolute;
+  top: 100px;
+ 
+  
+}
+
+
+.imagemusuarios{
+ 
+  display: flex;
+
+}
+.usuariologin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+  
+}
+
+.footertamanho{
+
+  width: 100%;
+  height: 80px;
+  background-color: rgb(27, 27, 27);
+}
+
+
+
+.textfooter{
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
 }
