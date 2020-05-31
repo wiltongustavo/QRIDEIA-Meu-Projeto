@@ -1,5 +1,6 @@
 import React from 'react';
 import'./bootstrap.min.css';
+import  './Normalize.css';
 
 
 

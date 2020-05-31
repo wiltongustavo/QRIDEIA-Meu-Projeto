@@ -4,10 +4,14 @@ import eventosImg from '../src/imgs/icone-eventos.png';
 import relatoriosImg from '../src/imgs/icone-relatorios.png';
 import usuariosImg from '../src/imgs/icone-usuarios.png';
 import'./bootstrap.min.css';
+import  './Normalize.css';
+
 
 
 
 export default function Header() {
+
+
 return (
     
     
@@ -27,9 +31,9 @@ return (
                             </div>
                             <div class="cardelemento">
 
-                                        <div>
+                                        <div class="">
                                         <img src={usuariosImg} class="imgInfo" alt="..."/>
-                                        <a href="#" class="infocomponente"><strong>Usuários</strong></a>
+                                        <a href="#" class="infocomponente" data-toggle="tooltip" data-placement="top" title="Usuarios" ><strong>Usuários</strong></a>
                                         </div>
 
                                     </div>
@@ -48,7 +52,11 @@ return (
 
            
         </header>
-);    
+);
+
 
 }
+
+
+
 

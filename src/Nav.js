@@ -2,6 +2,8 @@ import React from 'react';
 import usuarioImg from '../src/imgs/usuario.png';
 import'./bootstrap.min.css';
 import logotipo from '../src/imgs/logo.png';
+import  './Normalize.css';
+
 
 
 export  default function Nav(props){
@@ -14,7 +16,7 @@ export  default function Nav(props){
                                 <div class="row">
 
                                     <div class="col-sm-3">
-                                            <img class=""src={logotipo} alt="Logo"/>
+                                            <img class="img-fluid"src={logotipo} alt="Logo"/>
                                     </div>
                                     <div class="col-sm-6">
                                             <ul class="nav justify-content-center">
@@ -36,10 +38,10 @@ export  default function Nav(props){
                                     <div class="col-sm-3">
                                     
                                         
-                                            <img  class="imagemusuarios" src={usuarioImg} alt="Logo"/>
+                                            <img  class="imagemusuarios img-fluid" src={usuarioImg} alt="Logo"/>
                                         
                                         <div class=" usuariologin">                                 
-                                            <a class="  usuarios" href="#">Igor Gonçalves </a>
+                                            <a class="  usuarios " href="#">Igor Gonçalves </a>
                                         </div>    
                                             
                                         <div class=" usuariologin">   

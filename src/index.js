@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Header from './Header';
 import Footer from './Footer';
+import  './Normalize.css';
+
 
 
 ReactDOM.render(
@@ -12,6 +14,7 @@ ReactDOM.render(
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
+  
 );
 
 
