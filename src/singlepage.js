@@ -11,9 +11,7 @@ import'./Login.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav/>,
-    <Header/>,
-    <Footer/>
+    <Login/>
   </React.StrictMode>,
   document.getElementById('root')
   
