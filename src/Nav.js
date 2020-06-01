@@ -16,7 +16,7 @@ export  default function Nav(props){
                                 <div className="row">
 
                                     <div class="col-sm-3">
-                                            <img className="img-fluid"src={logotipo} alt="Logo"/>
+                                            <img className="img-fluid "src={logotipo} alt="Logo"/>
                                     </div>
                                     <div className="col-sm-6">
                                             <ul className="nav justify-content-center">
@@ -37,15 +37,15 @@ export  default function Nav(props){
                                     </div>
                                     <div class="col-sm-3">
                                     
-                                        
-                                            <img  className="imagemusuarios img-fluid" src={usuarioImg} alt="Logo"/>
-                                        
+                                    <div className="imagemusuarios">   
+                                            <img  className=" img-fluid " src={usuarioImg} alt="Logo"/>
+                                    </div>    
                                         <div className=" usuariologin">                                 
-                                            <a className="  usuarios " href="#">Igor Gonçalves </a>
+                                            <a className="  usuarios textos " href="#" >Igor Gonçalves </a>
                                         </div>    
                                             
                                         <div className=" usuariologin">   
-                                        <a className="linkdesconect" href="#" >Desconectar</a>   
+                                        <a className="linkdesconect textos" href="#" >Desconectar</a>   
                                         </div>
                                         
                                         
