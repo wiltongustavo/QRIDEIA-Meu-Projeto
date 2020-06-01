@@ -277,6 +277,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 10px;
+  transition: 0.3s;
 
 
 }
