@@ -11,26 +11,26 @@ export  default function Nav(props){
                
             <div>
                 <nav id="navprincipal" >
-                            <div class="container navprincipal">
+                            <div className="container navprincipal">
 
-                                <div class="row">
+                                <div className="row">
 
                                     <div class="col-sm-3">
-                                            <img class="img-fluid"src={logotipo} alt="Logo"/>
+                                            <img className="img-fluid"src={logotipo} alt="Logo"/>
                                     </div>
-                                    <div class="col-sm-6">
-                                            <ul class="nav justify-content-center">
-                                            <li class="nav-item">
-                                                <a class="nav-link btnhome " href="#">Home</a>
+                                    <div className="col-sm-6">
+                                            <ul className="nav justify-content-center">
+                                            <li className="nav-item">
+                                                <a className="nav-link btnhome " href="#">Home</a>
                                             </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link btnhome" href="#">Eventos</a>
+                                            <li className="nav-item">
+                                                <a className="nav-link btnhome" href="#">Eventos</a>
                                             </li>
-                                            <li class="nav-item ">
-                                                <a class="nav-link btnhome" href="#">Usuarios</a>
+                                            <li className="nav-item ">
+                                                <a className="nav-link btnhome" href="#">Usuarios</a>
                                             </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link btnhome" href="#">Relatorios</a>
+                                            <li className="nav-item">
+                                                <a className="nav-link btnhome" href="#">Relatorios</a>
                                             </li>
                                             </ul>
                                         
@@ -38,14 +38,14 @@ export  default function Nav(props){
                                     <div class="col-sm-3">
                                     
                                         
-                                            <img  class="imagemusuarios img-fluid" src={usuarioImg} alt="Logo"/>
+                                            <img  className="imagemusuarios img-fluid" src={usuarioImg} alt="Logo"/>
                                         
-                                        <div class=" usuariologin">                                 
-                                            <a class="  usuarios " href="#">Igor Gonçalves </a>
+                                        <div className=" usuariologin">                                 
+                                            <a className="  usuarios " href="#">Igor Gonçalves </a>
                                         </div>    
                                             
-                                        <div class=" usuariologin">   
-                                        <a class="linkdesconect" href="#" >Desconectar</a>   
+                                        <div className=" usuariologin">   
+                                        <a className="linkdesconect" href="#" >Desconectar</a>   
                                         </div>
                                         
                                         
@@ -56,7 +56,7 @@ export  default function Nav(props){
                             </div>
 
                     </nav> 
-                    <nav class="estilo"></nav>
+                    <nav className="estilo"></nav>
          </div>
             
            

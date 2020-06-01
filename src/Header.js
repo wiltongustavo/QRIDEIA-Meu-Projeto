@@ -8,41 +8,40 @@ import  './Normalize.css';
 
 
 
-
 export default function Header() {
 
 
 return (
     
     
-        <header class="header1 position-relative">
+        <header className="header1 ">
 
-            <div class="headerprincipal">
-                <h5 class="textitem">Ola <strong> Igor Gonçalves</strong>, Selecione uma opção abaixo:</h5>
+            <div className="headerprincipal">
+                <h5 className="textitem ">Ola <strong> Igor Gonçalves</strong>, Selecione uma opção abaixo:</h5>
                   
-                            <div class="cardelemento">
+                            <div className="cardelemento">
                         
                     
-                                        <div> 
+                                        <div className="item"> 
                                           <img src={eventosImg} class="imgInfo" alt="..."/>
                                           <a href="#" class="infocomponente"><strong>Meus Eventos</strong></a>
                                         </div>
 
                             </div>
-                            <div class="cardelemento">
+                            <div className="cardelemento">
 
-                                        <div class="">
+                                        <div className="item">
                                         <img src={usuariosImg} class="imgInfo" alt="..."/>
                                         <a href="#" class="infocomponente" data-toggle="tooltip" data-placement="top" title="Usuarios" ><strong>Usuários</strong></a>
                                         </div>
 
                                     </div>
-                            <div class="cardelemento">
+                            <div className="cardelemento">
 
-                                        <div>
+                                        <div className="item">
 
-                                        <img src={relatoriosImg} class=" imgInfo" alt="..."/>  
-                                        <a href="#" class="infocomponente"><strong>Relatorios</strong></a>
+                                        <img src={relatoriosImg} className=" imgInfo" alt="..."/>  
+                                        <a href="#" className="infocomponente"><strong>Relatorios</strong></a>
                                         
                                         </div>        
 
