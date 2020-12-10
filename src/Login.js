@@ -1,8 +1,10 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import'./bootstrap.min.css';
 import  './Normalize.css';
 import'./Login.css'
-import'.index.js'
+import'./index.js'
+
 
 
 export default function Login(){

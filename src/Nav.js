@@ -1,4 +1,6 @@
 import React from 'react';
+
+import ReactDOM from 'react-dom';
 import usuarioImg from '../src/imgs/usuario.png';
 import'./bootstrap.min.css';
 import logotipo from '../src/imgs/logo.png';

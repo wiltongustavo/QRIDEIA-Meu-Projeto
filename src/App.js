@@ -4,13 +4,14 @@ import'./bootstrap.min.css';
 
 
 
-import Nav from './Nav';
+
+import Login from './Login'
 
 
 function App() {
   return (
     
-    <Nav/>
+    <Login/>
     
    
   );
