@@ -33,6 +33,7 @@ return (
                            
                                         <Tippy content='Usuários'>
                                         <div className="item1">
+                                          
                                         <img src={usuariosImg} className="imgInfo" alt="..."/>
                                         <a href="#" class="infocomponente" data-toggle="tooltip" data-placement="top" title="Usuarios" ><strong className="textos">Usuários</strong></a>
                                         </div>

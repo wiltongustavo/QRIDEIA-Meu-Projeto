@@ -14,7 +14,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Nav/>,
     <Header/>,
-    <Footer/>,
+     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
   
